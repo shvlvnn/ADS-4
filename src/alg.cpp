@@ -15,7 +15,7 @@ int countPairs2(int *arr, int len, int value) {
     for (int a = 0; a < len - 1; a++) {
         for (int b = len - 1; b > a; b--) {
             if (arr[a] + arr[b] == value) {
-                count++
+                count++;
             }
         }
     }
